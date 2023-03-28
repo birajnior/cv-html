@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 35px;
+    
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+div>p, div>ul{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 30px;
+}
